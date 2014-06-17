@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+     <PreferenceCategory android:title="Conexion">
+         
+         <EditTextPreference
+            android:key="ip"
+            android:title="Servidor"
+            android:summary="Direccion IP del equipo Servidor"
+            android:dialogTitle="Introduce la direccion IP:"
+            android:defaultValue="192.168.1." />
+         
+         <Preference 
+             android:summary="Obtiene el servidor con el codigo QR (Necesita Barcode Scanner)" 
+             android:title="Capturar Codigo" 
+             android:key="qr"/>
+         
+         <CheckBoxPreference 
+             android:summary="Permite la recepcion de notificaciones del servidor" 
+             android:key="conexion" 
+             android:title="Recepcion" 
+             android:defaultValue="true" 
+             android:enabled="true"/>
+         
+     </PreferenceCategory>
+     
+     <PreferenceCategory android:title="Ratón">
+         
+		<CheckBoxPreference 
+             android:summary="Activa el acelerometro para controlar el raton" 
+             android:key="acelerometro" 
+             android:title="Acelerometro" 
+             android:defaultValue="true" 
+             android:enabled="true"/>
+		
+		<CheckBoxPreference 
+             android:summary="Invierte los ejes del acelerometro" 
+             android:key="invertir" 
+             android:title="Invertir" 
+             android:defaultValue="false" 
+             android:enabled="true"/>
+		
+		<CheckBoxPreference 
+             android:summary="Intercambia los botones del ratón" 
+             android:key="zurdo" 
+             android:title="Modo zurdo" 
+             android:defaultValue="false" 
+             android:enabled="true"/>
+
+     </PreferenceCategory>
+     
+     <PreferenceCategory android:title="Plantilla">
+         
+         <Preference 
+             android:summary="Crea una nueva plantilla personalizada" 
+             android:title="Crear" 
+             android:key="crear"/>
+         
+         <Preference 
+             android:summary="Actualiza las plantillas creadas" 
+             android:title="Importar" 
+             android:key="importar"/>
+         
+     </PreferenceCategory>
+     
+     <PreferenceCategory android:title="Acerca de">
+         
+          <Preference 
+             android:summary="1.0" 
+             android:title="Version" 
+             android:key="version"/>
+          
+          <Preference 
+             android:summary="Sitio Web www.pc-remoto.tk" 
+             android:title="Contactar" >
+             	<intent android:action="android.intent.action.VIEW"
+            		android:data="http://www.pc-remoto.tk" />
+     	 </Preference>
+         
+	 </PreferenceCategory>
+</PreferenceScreen>

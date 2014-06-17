@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PC Remoto</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+
+    <!-- Elementos del menu principal -->
+
+    <string name="inicio">Inicio</string>
+    <string name="configuracion">Configuración</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="salir">Salir</string>
+    <string name="title_activity_ayuda">Ayuda</string>
+    
+    <!-- Elementos de la pestaña teclado -->
+    
+    <string name="modos_de_teclado">Modos teclado:</string>
+    <string name="texto_simple">Texto simple</string>
+    <string name="texto_pass">Contraseñas</string>
+    <string name="pulsa_habla">Voz a texto</string>
+    <string name="modo_de_teclas">Modo teclas:</string>
+    <string name="favoritas">Favoritas</string>
+    <string name="tecla_simple">Tecla simple</string>
+    <string name="tecla_compuesta">Atajo de teclado</string>
+    <string name="TECLA">TECLA</string>
+    <string name="no_seleccionado">ERROR\nNo se ha seleccionado ningun elemento</string>
+    <string name="maximo_teclas">ERROR\nEl numero maximo de teclas seleccionadas es 3</string>
+
+    <!-- Elementos de la pestaña ratón -->
+    
+    <string name="pantalla_completa">Pantalla completa</string>
+    <string name="acelerometro">Activar acelerometro</string>
+    
+    <!-- Elementos de la pestaña automatizador -->
+    
+    <!-- Elementos de la pestaña personalizado -->
+    
+    <!--  <string name=""></string>  -->
+    
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    
+    <!-- Elementos AlertDialog  -->
+    
+	<string name="enviar_texto">Enviar texto</string>
+	<string name="enviar">Enviar</string>
+	<string name="enviar_con_enter">Enviar + ↵</string>
+	<string name="cancelar">Cancelar</string>   
+	
+	
+</resources>

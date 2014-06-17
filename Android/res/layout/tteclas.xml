@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"  >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="318dp"
+        android:layout_height="match_parent"
+            android:gravity="center"  >
+
+	
+	        <TableLayout
+	            android:id="@+id/tlTeclas"
+	            android:background="#0ff"
+	            android:layout_width="318dp"
+	            android:layout_height="wrap_content"
+	            android:layout_alignParentBottom="true"
+	            android:layout_centerHorizontal="true"
+	            android:stretchColumns="1" >
+	            
+	           <TableRow
+	                android:id="@+id/tableRow0"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+
+	               <Spinner
+	                   	android:id="@+id/spinner1"
+	  					android:layout_marginBottom="106dp"
+	                   	android:layout_height="wrap_content"
+	                   	android:layout_weight="3" />
+	                
+	           </TableRow>
+	
+	           <TableRow
+	                android:id="@+id/tableRow1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	
+	                <Button
+	                    android:id="@+id/btTecla0"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" " />
+	                
+	                <Button
+	                    android:id="@+id/btTecla1"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                                
+	                <Button
+	                    android:id="@+id/btTecla2"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	
+	                                
+	            </TableRow>
+	
+	            <TableRow
+	                android:id="@+id/tableRow2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                
+	                <Button
+	                    android:id="@+id/btTecla3"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" " />
+	                
+	                <Button
+	                    android:id="@+id/btTecla4"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                                
+	                <Button
+	                    android:id="@+id/btTecla5"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                
+	            </TableRow>
+	
+	            <TableRow
+	                android:id="@+id/tableRow3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                
+	                <Button
+	                    android:id="@+id/btTecla6"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" " />
+	                
+	                <Button
+	                    android:id="@+id/btTecla7"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                                
+	                <Button
+	                    android:id="@+id/btTecla8"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                
+	            </TableRow>
+	
+	            <TableRow
+	                android:id="@+id/tableRow4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                
+	                <Button
+	                    android:id="@+id/btTecla9"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" " />
+	                
+	                <Button
+	                    android:id="@+id/btTecla10"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                                
+	                <Button
+	                    android:id="@+id/btTecla11"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                
+	            </TableRow>
+	            
+	            <TableRow
+	                android:id="@+id/tableRow5"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content" >
+	                
+	                <Button
+	                    android:id="@+id/btTecla12"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" " />
+	                
+	                <Button
+	                    android:id="@+id/btTecla13"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                                
+	                <Button
+	                    android:id="@+id/btTecla14"
+	                    android:layout_width="106dp"
+	                    android:layout_height="106dp"
+	                    android:text=" "
+	                    android:layout_weight="1" />
+	                
+	            </TableRow>
+	            
+	        </TableLayout>
+	
+
+    
+    </ScrollView>
+
+</LinearLayout>

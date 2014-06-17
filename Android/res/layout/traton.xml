@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btPantallaCompleta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/pantalla_completa" />
+
+    <CheckBox
+        android:id="@+id/cbAcelerometro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/acelerometro" />
+
+    <ImageView
+        android:id="@+id/imgTouchpadTab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.84"
+        android:background="#363637"
+        android:src="@drawable/touchpadtab" />
+
+   <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="1" >
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#363637" >
+
+            <Button
+                android:id="@+id/btRaton1"
+                android:layout_width="0dp"
+ 				android:layout_weight="3"
+ 				android:layout_height="80sp"
+                android:text=" " />
+
+            <Button
+                android:id="@+id/btRatonCentral"
+		 		android:layout_width="0dp"
+		 		android:layout_weight="1"
+		 		android:layout_height="80sp"
+                android:text=""
+                 />
+
+            <Button
+                android:id="@+id/btRaton2"
+		 		android:layout_width="0dp"
+		 		android:layout_weight="3"
+		 		android:layout_height="80sp"
+                android:text=" "/>
+
+        </TableRow>
+	</TableLayout>
+
+</LinearLayout>
